@@ -1,0 +1,42 @@
+# Fichiers et dossiers à ignorer
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Fichiers spécifiques à ignorer
+DB.SQL
+DOCKER_DEPLOYMENT_GUIDE.md
+
+# Dossiers à ignorer
+files/
+
+# Fichiers sensibles
+.env
+
+# Fichiers de configuration d'IDE
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea/
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
